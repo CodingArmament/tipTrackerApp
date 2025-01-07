@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core'
+import { RouterOutlet } from '@angular/router'
 
 @Component({
   selector: 'app-root',
@@ -8,5 +8,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  public title = 'What ever';
-}
+  public str_loginSubtitle = 'Sign in to continue'
+  public str_login = 'Login'
+  public str_username = 'Username'
+  public str_password = 'Password'
+  public btn_signIn = 'Sign In'
+  public btn_signUp = 'Create Account'
+} 
